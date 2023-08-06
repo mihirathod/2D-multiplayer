@@ -1,0 +1,98 @@
+{
+    "name": "Player_Controls",
+    "maps": [
+        {
+            "name": "Land",
+            "id": "1f84c5bf-2c6d-44b5-a878-872db71d09d5",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "ce2bcd96-9f9d-4466-972c-5ead34a5e8af",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Firing",
+                    "type": "Button",
+                    "id": "603be07f-2048-45bb-9c55-eac3b6039481",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "969d76c9-eec3-4b0c-aba1-5f6bf2851b91",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Firing",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "WASD",
+                    "id": "469630cc-a55f-4d18-921e-0e46e6c00470",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "d9640459-1e97-4b10-b5e5-b82ca2d65ee4",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "dce284f2-791e-4765-b363-e0af8d27826a",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "14b462de-36da-4d39-a655-9ef60e17b773",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "a505dbb6-a30c-4ee3-9d57-5cef575674e1",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
